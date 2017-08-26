@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Journal-Page</title>
+</head>
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+<link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/journal.css">
+
+<body>
+
+<nav id='header' class="navbar navbar-default navbar-fixed-top">
+  <div id='headerContainer' class="container-fluid">
+  	
+  	<div class="navbar-header">
+      <a id='brand' class="navbar-brand" href="#">Weed Journal <span id='slogan'>Input Website Slogan Here</span></a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      	<li><a href="#"><span class="glyphicon glyphicon-align-justify"></span></a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<div id="journalEntry" class="row">
+
+	<div id='pageEntry' class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	
+		<div id="topRow" class="row">
+
+			<div id="strainSelect" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				
+		        <div class="form-group">
+		          <input type="text" class="form-control" id="strainSearch" placeholder="Input Strain">
+		        </div>
+		      
+      
+			</div>
+			
+			<div id="dateSelect" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="bootstrap-iso">
+				 <div class="container-fluid">
+			
+				    <form action="https://formden.com/post/MlKtmY4x/" class="form-horizontal" method="post">
+				     <div class="form-group ">
+				      
+				      <div class="col-sm-10">
+				       <div class="input-group">
+				        <div class="input-group-addon">
+				         <i class="fa fa-calendar">
+				         </i>
+				        </div>
+				        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+				       </div>
+				      </div>
+
+				     </div>
+
+				     <div class="form-group">
+				      <div class="col-sm-10 col-sm-offset-2">
+				       
+				       <input name="_honey" style="display:none" type="text"/>
+				    
+				      </div>
+				     </div>
+				     
+				    </form>
+				 
+				 </div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="strainOrigin" class="row">
+			
+			<h4 class="questionText">Where did you purchase this strain?</h4>
+
+			<div class="form-group">
+		          <input type="text" class="form-control" id="dispensarySearch" placeholder="Search for Dispensary">
+		    </div>
+
+		</div>
+
+		<div id="questionOne" class="row">
+			
+			<h4 class="questionText">How are you smoking it?</h4>
+
+			<ul id="smokingList">
+				<li class='smokingIcons'><button id='none'><img class='smokingPic' src="assets/images/joint.png"></button></li>
+				<li class='smokingIcons'><button id='none'><img class='smokingPic' src="assets/images/pipe.png"></button></li>
+				<li class='smokingIcons'><button id='none'><img class='smokingPic' src="assets/images/bong.png"></buton></li>
+				<li class='smokingIcons'><button id='none'><img class='smokingPic' src="assets/images/dab.png"></button></li>
+				<li class='smokingIcons'><button id='none'><img class='smokingPic' src="assets/images/vape.png"></button></li>				
+			</ul>
+
+		</div>
+
+		<div id="questionTwo" class="row">
+			
+			<h4 class="questionText">How do you feel?</h4>
+
+			<ul id="feelingList">
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/happy.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/sad.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/sleepy.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/loving.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/dead.png"></li>				
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/angry.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/dull.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/looney.png"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/hungry.jpg"></li>
+				<li class='feelingIcons'><img class='feelingPic' src="assets/images/vomit.png"></li>	
+			</ul>
+
+		</div>
+
+		<div id="questionThree" class="row">
+			
+			<h4 class="questionText">What are you thinking about?</h4>
+			
+			<textarea placeholder="Input Thoughts Here"></textarea>
+
+		</div>
+
+		<div id="questionFour" class="row">
+			
+			<h4 class="questionText">How would you grade this strain?</h4>			
+
+			<form id="gradeList">
+				<input type="radio" name="grade"> A
+				<input type="radio" name="grade"> B
+				<input type="radio" name="grade"> C
+				<input type="radio" name="grade"> D
+				<input type="radio" name="grade"> F			
+			</form>
+			
+ 
+		</div>
+
+		<div id="reminderRow" class="row">
+			
+			<h4 class="questionText">Send a message to future you:</h4>
+
+			<textarea placeholder="Input Reminder Here"></textarea>	
+			
+			Send in: <select>
+			  <option value="12hours">12 hours</option>
+			  <option value="24hours">24 hours</option>
+			  <option value="3days">3 days</option>
+			  <option value="1week">1 week</option>
+			</select>
+
+			to <form id="messageList">
+				<input type="radio" name="messageType"> Email
+				<input type="radio" name="messageType"> SMS		
+			</form>	
+
+		</div>
+		
+		<button type="submit" id="button" class="btn btn-primary">Submit Journal Entry</button>
+
+
+
+
+	
+	</div>
+
+</div>
+
+<nav id='footer' class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <ul id='footerLinks' class="nav navbar-nav">
+	    	<li><a href="#">About</a></li>
+	    	<li><a href="#">Contact</a></li>
+	    	<li><a href="#">Donate</a></li>
+	    </ul>
+	  </div>
+</nav>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script type="text/javascript" src="assets/javascript/journalScript.js"></script>
+
+</body>
+</html> 

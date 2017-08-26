@@ -1,0 +1,197 @@
+#webTitle{
+	color: lightgreen;
+	text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 48px;
+}
+
+#webTitle2{
+	color: white;
+	text-shadow: 
+	-1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+	width: 500px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#journalButton{
+	width: 500px;
+	margin: auto;
+	display: block;
+}
+
+#mainDiv{
+	background-image: url('../images/weed-pic.jpg');
+	background-size: cover;
+	min-height: 700px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+    text-shadow: 
+	-1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: yellow;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	color: lightgreen;
+}
+
+#aboutDiv{
+	min-height: 250px;
+	background-color: white;
+	border: black 1px solid;
+}
+
+#aboutTitle{
+	width: 400px;
+	margin:auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#aboutText{
+	width: 800px;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#startButton{
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+#howDiv{
+	min-height: 600px;
+	background-color: white;
+	border-bottom: black 1px solid;
+}
+
+#featureOnePic{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: block;
+	margin-top: 40px;
+}
+
+#featureOneTitle{
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 90px;
+}
+
+#featureOneText{
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#featureTwoPic{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: block;
+	margin-top: 40px;
+}
+
+#featureTwoTitle{
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 90px;
+}
+
+#featureTwoText{
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#readyDiv{
+	background-color: grey;
+	color: white;
+	text-shadow: 
+	-1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    border-bottom: black 1px solid;
+}
+
+#readyTitle{
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#readyButton{
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#footer{
+	background-color: #545353;	
+}
+
+#footerLinks{
+	width: 400px;
+	margin: auto;
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+#hiddenNav{
+	background-color: #3f603f;
+	border-bottom: black 1px solid;
+}
+
+#hiddenContainer{
+	width: 70%;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+#slogan{
+	color: white;
+	font-size: 12px;
+	font-style: italic;
+
+}
